@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>María Belén Closter | Trámites con Calidez Humana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'beige': '#f8f5f0',
+                        'beige-claro': '#f5f0e6',
+                        'marron': '#8b6f47',
+                        'marron-oscuro': '#6b5030',
+                        'dorado': '#d4af7a',
+                    },
+                    fontFamily: {
+                        'display': ['"Playfair Display"', 'serif'],
+                        'sans': ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-bg {
+            background: linear-gradient(to bottom right, #f8f5f0 30%, #ffffff 100%);
+        }
+        .card-hover {
+            transition: all 0.4s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 50px rgba(139, 111, 71, 0.15);
+        }
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+        .btn-hover:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 30px rgba(139, 111, 71, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-beige text-gray-800 font-sans">
+
+    <!-- Hero Section Moderna -->
+    <section class="hero-bg py-20 overflow-hidden relative">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div data-aos="fade-right">
+                    <h1 class="text-5xl md:text-6xl font-display text-marron-oscuro leading-tight">
+                        María Belén Closter
+                    </h1>
+                    <p class="text-2xl md:text-3xl text-marron mt-4 font-medium">
+                        Trámites y Acompañamiento Administrativo
+                    </p>
+                    <p class="text-xl text-gray-600 mt-6 italic">
+                        Claridad, responsabilidad y trato humano.
+                    </p>
+                    <p class="text-lg text-gray-500 mt-4">Santa Fe • Santo Tomé</p>
+                    
+                    <div class="mt-10 flex gap-4">
+                        <a href="https://wa.me/549341XXXXXXX" target="_blank" class="btn-hover inline-block bg-marron text-white px-8 py-4 rounded-full font-medium shadow-lg">
+                            <i class="fab fa-whatsapp mr-2"></i> Consultar por WhatsApp
+                        </a>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left" class="flex justify-center">
+                    <div class="relative">
+                        <div class="w-80 h-80 bg-beige-claro rounded-full shadow-2xl overflow-hidden border-8 border-white">
+                            <img src="perfil.jpg" alt="María Belén Closter" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-4 -left-4 bg-dorado text-marron-oscuro px-6 py-3 rounded-full text-lg font-bold shadow-xl">
+                            Espacio Legal y Humano
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex justify-center gap-12 mt-16" data-aos="fade-up">
+                <i class="fas fa-file-alt text-5xl text-marron opacity-80"></i>
+                <i class="fas fa-heart text-5xl text-marron opacity-80"></i>
+                <i class="fas fa-balance-scale text-5xl text-marron opacity-80"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios con estilo moderno -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-display text-center text-marron-oscuro mb-16" data-aos="fade-up">
+                Mis Servicios
+            </h2>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- ANSES -->
+                <div class="bg-beige-claro rounded-3xl p-10 card-hover shadow-xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-center mb-8">
+                        <div class="inline-block bg-white p-6 rounded-full shadow-lg">
+                            <i class="fas fa-users-rays text-5xl text-marron"></i>
+                        </div>
+                        <h3 class="text-3xl font-display text-marron-oscuro mt-6">ANSES</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>AUH • SUAF</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Asignación por Embarazo</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Fondo de Desempleo</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Ayuda Escolar</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Turnos y actualización de datos</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Gestión completa del trámite</li>
+                    </ul>
+                </div>
+
+                <!-- Gestoría Administrativa -->
+                <div class="bg-beige-claro rounded-3xl p-10 card-hover shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-center mb-8">
+                        <i class="fas fa-clipboard-list text-6xl text-marron"></i>
+                        <h3 class="text-3xl font-display text-marron-oscuro mt-6">Gestoría Administrativa</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Pensión por invalidez</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Partidas y certificados</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Certificado de antecedentes</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Clave fiscal • Monotributo</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Información y acompañamiento</li>
+                    </ul>
+                </div>
+
+                <!-- Gestoría Automotor -->
+                <div class="bg-beige-claro rounded-3xl p-10 card-hover shadow-xl" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-center mb-8">
+                        <i class="fas fa-car text-6xl text-marron"></i>
+                        <h3 class="text-3xl font-display text-marron-oscuro mt-6">Gestoría Automotor</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Libre deuda</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Informes registrales</li>
+                        <li class="flex items-center"><i class="fas fa-check text-dorado mr-4"></i>Transferencias</li>
+                    </ul>
+                    <p class="text-center mt-8 text-marron italic font-medium">Gestión clara y responsable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo trabajo -->
+    <section class="py-20 hero-bg">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-display text-center text-marron-oscuro mb-16" data-aos="fade-up">
+                Cómo Trabajo
+            </h2>
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="space-y-10" data-aos="fade-right">
+                    <div class="flex gap-6">
+                        <div class="bg-dorado text-marron-oscuro w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-search text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-medium text-marron-oscuro">Revisión detallada</h4>
+                            <p class="text-gray-700 mt-2">Analizo toda tu documentación con precisión.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="bg-dorado text-marron-oscuro w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-hands-helping text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-medium text-marron-oscuro">Acompañamiento cercano</h4>
+                            <p class="text-gray-700 mt-2">Estoy con vos en cada paso del proceso.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="bg-dorado text-marron-oscuro w-14 h-14 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg">
+                            <i class="fas fa-chart-line text-2xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-medium text-marron-oscuro">Seguimiento constante</h4>
+                            <p class="text-gray-700 mt-2">Me encargo hasta la resolución final.</p>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left" class="bg-white rounded-3xl p-12 shadow-2xl text-center">
+                    <i class="fas fa-comment-dots text-7xl text-marron mb-6"></i>
+                    <p class="text-2xl font-medium text-gray-800">Consultas exclusivas<br>por mensaje privado</p>
+                    <p class="text-sm text-gray-500 mt-4 italic">No brindo asesoramiento legal personalizado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Moderno -->
+    <section class="py-20 bg-gradient-to-br from-marron-oscuro to-marron text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-display mb-8" data-aos="fade-up">
+                ¡Hablemos!
+            </h2>
+            <p class="text-xl mb-12 opacity-90" data-aos="fade-up" data-aos-delay="100">
+                Escribime y te respondo a la brevedad con atención personalizada
+            </p>
+            
+            <div class="flex justify-center gap-8 text-4xl" data-aos="fade-up" data-aos-delay="200">
+                <a href="mailto:tuemail@example.com" class="btn-hover bg-white text-marron w-20 h-20 rounded-full flex items-center justify-center shadow-2xl">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/549341XXXXXXX" target="_blank" class="btn-hover bg-white text-marron w-20 h-20 rounded-full flex items-center justify-center shadow-2xl">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.facebook.com/mariabelen.closter" target="_blank" class="btn-hover bg-white text-marron w-20 h-20 rounded-full flex items-center justify-center shadow-2xl">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/espacio_legal_y_humano" target="_blank" class="btn-hover bg-white text-marron w-20 h-20 rounded-full flex items-center justify-center shadow-2xl">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-marron-oscuro text-white py-10">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <p class="text-lg">© 2025 María Belén Closter • Todos los derechos reservados</p>
+            <p class="text-sm mt-3 opacity-80">
+               
+            </p>
+            <p class="text-sm mt-6">
+                Hecha por <a href="https://leonardodev.web.app" target="_blank" class="underline hover:opacity-80 transition">LeonardoDev</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+</body>
+</html>
